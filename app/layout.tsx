@@ -8,8 +8,8 @@ const body = DM_Sans({
   display: "swap",
 });
 
-const display = Syne({
-  variable: "--font-display",
+const brand = Syne({
+  variable: "--font-brand",
   subsets: ["latin"],
   display: "swap",
 });
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es" className={`${body.variable} ${display.variable}`}>
+    <html lang="es" className={`${body.variable} ${brand.variable}`}>
       <body>{children}</body>
     </html>
   );

@@ -85,7 +85,9 @@ export default function Home() {
             <br />
             no viene
             <br />
-            en catálogo.
+            en
+            <br />
+            catálogo.
           </h1>
           <p className="hero-intro">
             Cuéntasela a los hermanos Pintos. Llevan siete años convirtiendo referencias,
@@ -102,8 +104,8 @@ export default function Home() {
         </div>
         <div className="hero-image">
           <Image
-            src="/images/pintos-02.jpg"
-            alt="Tatuaje de dragón realizado en Pintos Tattoo and Piercing"
+            src="/images/pintos-06.jpg"
+            alt="Tatuaje de corazón anatómico realizado en Pintos Tattoo and Piercing"
             fill
             priority
             sizes="(max-width: 900px) 100vw, 52vw"
@@ -127,7 +129,7 @@ export default function Home() {
         </div>
         <div className="story-copy">
           <p className="eyebrow">01 / EL ESTUDIO</p>
-          <h2>Dos hermanos.<br />Una mesa de dibujo.<br />Nada de copiar y pegar.</h2>
+          <h2>Dos hermanos.<br />Un estudio.<br />Cero copias.</h2>
           <p>
             Entra con una referencia, una historia o una idea a medias. Antes de la aguja
             viene la conversación: tamaño, lugar, diseño y presupuesto claros.

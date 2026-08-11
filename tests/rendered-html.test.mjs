@@ -15,7 +15,7 @@ test("renders Pintos business data and conversion paths", async () => {
 
 test("uses real business images and review proof", async () => {
   const html = await readFile(htmlPath, "utf8");
-  assert.match(html, /pintos-02\.jpg/);
+  assert.match(html, /pintos-06\.jpg/);
   assert.match(html, /Jade O\./);
   assert.match(html, /Reseña verificada/);
 });

@@ -108,6 +108,7 @@ export default function Home() {
             alt="Tatuaje de corazón anatómico realizado en Pintos Tattoo and Piercing"
             fill
             priority
+            loading="eager"
             sizes="(max-width: 900px) 100vw, 52vw"
           />
         </div>
